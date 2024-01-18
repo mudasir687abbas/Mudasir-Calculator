@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  }
+  input:checked ~ article #mobileMenu{
+    transform:translate(0px);
+  }
+input{
+  display:none;
+}
+  
+body{}
+header{
+  width:100vw;
+  height:8vh;
+  background-color:lightblue;
+  display:flex;
+ justify-content: center;
+  align-items: center;
+ 
+}
+header #hamburg{
+  width:8vw;
+  height:4vh;
+  background-color: whitesmoke;
+ 
+  position:relative;
+  left:-36%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:3px;
+}
+header #hamburg .line{
+  width:85%;
+  border:1.5px solid black ;
+  border-radius:10px;
+}
+article{
+  width:100vw;
+  height:84vh;
+  background-color: whitesmoke;
+  }
+ #mobileMenu{
+   width:60vw;
+   height:84vh; 
+   
+  background-color: #f8f338;
+  padding-top:80px;
+  border:1px solid black;
+  transform:translate(-360px);
+  transition:all 2s;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:50px;
+ }
+ .linkContainer{
+   width:100%;
+   padding:0px 70px;
+   display:flex;
+   justify-content: center;
+   align-items:center ;
+   gap:10px;
+ }
+article #mobileMenu a{
+  width:100%;
+  height:3.5vh;
+  text-decoration: none;
+  color:black;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+a:hover{
+  background-color:lightgreen;
+  color:white;
+}
+i{
+  color:blue;
+}
+ article #homeIntro{
+  width:100%;
+  height: 84vh;
+  background-color:;
+  border:1px solid black; 
+  position:relative;
+  top:-84vh;
+  
+ }
+footer{
+  width:100vw;
+  height:8vh;
+  background-color: gray;
+  color:white;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+footer h3{
+  width:min-content;
+}
